@@ -1,0 +1,141 @@
+/* General */
+body{
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+/* Header */
+
+.header{
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 2px solid green;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+.icons {
+    height: 50px;
+}
+
+/* Main */
+
+#card .dog-img  {
+    width: 100%;
+}
+
+#card {
+    position: relative;
+    width: 100%;   
+}
+
+.card{
+    font-size:60px;
+    color: #b3b0af;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.feature-suggestion {
+    position: relative;
+}
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    /* left: 10px; */
+    font-size: 30px;
+    padding: 0px;
+    text-align: left;
+    border: 2px solid orange;
+}
+
+
+.dog-bio {
+    color: #B7B7B7;
+    margin-top: 0;
+    bottom: 40px;
+    width: 500px;
+}
+
+.hydrant {
+    height:398px; 
+    width: 180px;
+    opacity: 0.2;
+    margin: 40px; 
+}
+
+.badge {
+    height: 90px;
+    rotate: -30deg;
+    position:absolute;
+    top:200px;
+    left: 40px;
+}
+
+.display-like {
+    display: none;
+}
+
+.display-nope {
+    display: none;
+}
+
+.dog-img {
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+/* Buttons  */
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    /* border: 2px solid green; */
+}
+
+.accept-button {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 5px 6px #efecec;
+    border: none; 
+    background-color: white;
+    margin: 5px 15px;   
+}
+
+ .accept-button:hover{
+    background-color:#DBFFF4;   
+}
+
+.reject-button {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 5px 6px #efecec;
+    border: none; 
+    background-color: white;
+    margin: 5px 15px; 
+}
+
+.reject-button:hover  {
+    background-color:#FFE7EF;   
+}
+
+
+
