@@ -1,29 +1,32 @@
-/* General */
+/* GENERAL */
 body{
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    background-color:  #111111;
 }
 
-/* Header */
+.container{
+    background-color: #464d4691;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
 
+/* HEADER*/
 .header{
-   height: 90px;
+   height: 5.625rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border: 2px solid green;
-   margin-left: 20%;
-   margin-right: 20%;
 }
 
 .icons {
-    height: 50px;
+    height: 2.5rem;
+    margin: 0px 3em;
 }
 
-/* Main */
-
+/* MAIN */
 #card .dog-img  {
     width: 100%;
 }
@@ -34,51 +37,60 @@ body{
 }
 
 .card{
-    font-size:60px;
-    color: #b3b0af;
+    padding-top: .6em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size:2.5em;
+    color: #d1cdcc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
     text-align: center;
 }
 
 .feature-suggestion {
     position: relative;
 }
+
 .dog-info {
-    position: absolute;
     color: white;
-    bottom: 20px;
-    /* left: 10px; */
-    font-size: 30px;
-    padding: 0px;
+    font-size:1.4rem;
     text-align: left;
-    border: 2px solid orange;
+    position: absolute;
+    left: .8rem;
+    bottom: 0.313rem;     
 }
 
-
 .dog-bio {
-    color: #B7B7B7;
-    margin-top: 0;
-    bottom: 40px;
-    width: 500px;
+    font-size: 1rem;
+    color: #354136;
+    background-color: #ffffffd2;
+    border-radius: 5px;
+    line-height: 1.6;
+    padding: 1.25rem;
+    margin: 10px;
+    max-height: 4em; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: normal; 
+    width: 80%;
 }
 
 .hydrant {
-    height:398px; 
-    width: 180px;
+    height:8em; 
+    width: 4em;
     opacity: 0.2;
-    margin: 40px; 
+    margin: 2.5em; 
 }
 
+/* BADGE NOPE/LIKE */
 .badge {
-    height: 90px;
+    height: 5.625em;
     rotate: -30deg;
     position:absolute;
-    top:200px;
-    left: 40px;
+    top:12.5rem;
+    left: 1.25rem;
 }
 
 .display-like {
@@ -90,33 +102,26 @@ body{
 }
 
 .dog-img {
-    border-radius: 15px;
+    border-radius: 0.938rem;
 }
 
 
-
-
-
-
-
-/* Buttons  */
-
+/* BUTTONS*/
 .actions {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 130px;
-    /* border: 2px solid green; */
+    margin-top: 1.25em;
 }
 
 .accept-button {
-    height: 90px;
-    width: 90px;
+    height: 4.5em;
+    width: 4.5em;
     border-radius: 50%;
-    box-shadow: 1px 3px 5px 6px #efecec;
+    box-shadow: 0.063em 0.188em 0.313em 0.375em #efecec;
     border: none; 
     background-color: white;
-    margin: 5px 15px;   
+    margin: 0.313em 0.938em;   
 }
 
  .accept-button:hover{
@@ -124,13 +129,13 @@ body{
 }
 
 .reject-button {
-    height: 90px;
-    width: 90px;
+    height: 4.5em;
+    width: 4.5em;
     border-radius: 50%;
-    box-shadow: 1px 3px 5px 6px #efecec;
+    box-shadow: 0.063em 0.188em 0.313em 0.375em #efecec;
     border: none; 
     background-color: white;
-    margin: 5px 15px; 
+    margin: 0.313em 0.938em;   
 }
 
 .reject-button:hover  {

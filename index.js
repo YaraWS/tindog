@@ -1,4 +1,3 @@
-// Remember to import the data and Dog class!
 import Dog from './Dog.js'
 import dogsData from './data.js'
 let currentDogIndex = 0
@@ -31,35 +30,25 @@ function getNewDog() {
     } else {
         document.getElementById("card").innerHTML = `
         No more dogs in your area
-        <img src="/images/hydrant.jpg" class="hydrant">`;
+        <img src="/images/hydrant.gif" class="hydrant">`;
         document.querySelector(".actions").style.display = "none";
     }    
 } 
 
+function swipe(like, badgeEl) {
+    const myTimeOut = setTimeout(getNewDog,1500)
+    currentDog.setMatchStatus(like)
+    setTimeout(stopBadge,1500)
+    badgeEl.style.display = "block";
+}
 
 function yes(){
-    
-    const myTimeOut = setTimeout(getNewDog,1500)
-    
-    currentDog.setMatchStatus(true)
-    
-    if(currentDog.hasBeenLiked){
-        const myTimeOut = setTimeout(stopBadge,1500)
-        displayLike.style.display = "block";
-    } 
+    swipe(true, displayLike)    
 }
 
 
 function no(){
-    
-    const myTimeOut = setTimeout(getNewDog,1500)
-    
-    currentDog.setMatchStatus(false)
-    
-    if(!currentDog.hasBeenLiked){  
-        const myTimeOut = setTimeout(stopBadge,1500)
-        displayNope.style.display = "block";
-    }
+    swipe(false, displayNope)  
 }
 
 

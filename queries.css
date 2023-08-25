@@ -1,0 +1,142 @@
+/* =================
+    Media queries 
+   ================= */
+
+   @media (min-width:768px) {
+
+    #card .dog-img  {
+      height: 40%;
+      width: 40%;
+     }
+
+     .icons {
+      height: 2.3em;
+    }
+
+     .dog-info {
+      width: 40%;
+      position: absolute;
+      left: 15rem;
+      font-size: 1rem;
+    }
+
+    .hydrant {
+      height:398px; 
+      width: 180px;
+      opacity: 0.2;
+      margin: 40px; 
+    }
+
+    .card{
+      font-size:1.5em;
+    }
+
+     /* BUTTONS */
+     .accept-button {
+      margin-top: 0.625em;
+      height: 4.375em;
+      width: 4.375em;
+    }
+    
+     .reject-button{
+      margin-top: 0.625em;
+      height: 4.375em;
+      width: 4.375em;
+     }
+
+     .button-icons {
+      height: 55%;
+      width: 58%;
+    }
+ 
+     /* BADGE */
+     .badge {
+      height: 4em;
+      position:absolute;
+      top:11em;
+      left: 16em;
+    }
+
+   }
+
+   @media (min-width:1081px){
+     
+    .icons {
+      /* margin-top: 3.75em; */
+      height: 3.1em;
+    }
+
+    .dog-info {
+      width: 40%;
+      position: absolute;
+      left: 20.5rem;
+      font-size: 1.5rem;
+    }
+    
+    /* BADGE */
+     .badge {
+      height: 5.2em;
+      position:absolute;
+      top:12em;
+      left: 33em;
+    }
+
+   }
+
+   @media (min-width: 3839px) {
+
+    body{
+      background-color: transparent;
+    }
+    #card .dog-img  {
+      height: 110%;
+      width: 110%;
+     }
+
+     .icons {
+      margin-top: 4em;
+      height: 4em;
+    }
+
+    .dog-info {
+      width: 40%;
+      position: absolute;
+      left: 4rem;
+      font-size: 2rem;
+      text-align: left;
+    }
+
+    .card{
+      font-size:4em;
+    }
+
+    .hydrant {
+      height:900px; 
+      width: 408px;
+      margin: 80px; 
+    }
+
+    /* BUTTONS */
+    .accept-button {
+      margin-top: 0.625em;
+      height: 8em;
+      width: 8em;
+      margin-left: 30px;
+    }
+    
+     .reject-button{
+      margin-top: 0.625em;
+      height: 8em;
+      width: 8em;
+      margin-right: 30px;
+     }
+
+      /* BADGE */
+      .badge {
+        height: 10em;
+        position:absolute;
+        top:19em;
+        left: 130em;
+      }
+    
+   }
