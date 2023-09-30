@@ -21,14 +21,12 @@ class Dog {
                     </div>
                 </div>
                 <img class="dog-img" src="${avatar}">
-                <img src="/images/badge-like.png" class="badge display-like">
-                <img src="/images/badge-nope.png" class="badge display-nope"> 
-               
             </div>`       
     }   
 }
 
 
 export default Dog
+
 
 
