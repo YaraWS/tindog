@@ -53,7 +53,7 @@
      .badge {
       height: 4em;
       position:absolute;
-      top:11em;
+      top:5em;
       left: 16em;
     }
 
@@ -81,6 +81,24 @@
       left: 33em;
     }
 
+   }
+
+   @media (min-width: 1280px) {
+    .badge {
+      height:4.5em;
+      position:absolute;
+      top:6em;
+      left:22em;
+    }
+   }
+
+   @media (min-width: 1920px) {
+    .badge {
+      height:4.5em;
+      position:absolute;
+      top:5em;
+      left:22em;
+    }
    }
 
    @media (min-width: 3839px) {
@@ -133,10 +151,10 @@
 
       /* BADGE */
       .badge {
-        height: 10em;
+        height: 11em;
         position:absolute;
         top:19em;
-        left: 130em;
+        left: 7em;
       }
     
    }
