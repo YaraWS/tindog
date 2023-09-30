@@ -4,6 +4,10 @@ body{
     background-color:  #111111;
 }
 
+main{
+    position: relative;
+}
+
 .container{
     background-color: #464d4691;
     padding: 10px;
@@ -37,6 +41,7 @@ body{
 }
 
 .card{
+    position: relative;
     padding-top: .6em;
     font-weight: bolder;
     text-transform: uppercase;
@@ -86,11 +91,12 @@ body{
 
 /* BADGE NOPE/LIKE */
 .badge {
-    height: 5.625em;
+    height: 5em;
     rotate: -30deg;
     position:absolute;
-    top:12.5rem;
-    left: 1.25rem;
+    top:100PX;
+    left:20px;
+
 }
 
 .display-like {
